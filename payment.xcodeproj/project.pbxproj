@@ -14,6 +14,12 @@
 		79ECA61A2154BC6600F494CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79ECA6182154BC6600F494CF /* LaunchScreen.storyboard */; };
 		79ECA6252154BC6600F494CF /* paymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ECA6242154BC6600F494CF /* paymentTests.swift */; };
 		79ECA6302154BC6600F494CF /* paymentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ECA62F2154BC6600F494CF /* paymentUITests.swift */; };
+		79ECA6402154BD0700F494CF /* pas-img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79ECA63F2154BD0700F494CF /* pas-img.jpg */; };
+		79ECA6462154C08200F494CF /* filterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ECA6452154C08200F494CF /* filterIcon.png */; };
+		79ECA6482154C08900F494CF /* mapMarker.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ECA6472154C08900F494CF /* mapMarker.png */; };
+		79ECA64B2154F3DA00F494CF /* radio-button-unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ECA6492154F3DA00F494CF /* radio-button-unchecked.png */; };
+		79ECA64C2154F3DA00F494CF /* radio-button-checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ECA64A2154F3DA00F494CF /* radio-button-checked.png */; };
+		79ECA64E2154F79500F494CF /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = 79ECA64D2154F79500F494CF /* backspace.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,15 @@
 		79ECA62B2154BC6600F494CF /* paymentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paymentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79ECA62F2154BC6600F494CF /* paymentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentUITests.swift; sourceTree = "<group>"; };
 		79ECA6312154BC6600F494CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79ECA63F2154BD0700F494CF /* pas-img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pas-img.jpg"; sourceTree = "<group>"; };
+		79ECA6412154C06100F494CF /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		79ECA6422154C06100F494CF /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		79ECA6432154C06200F494CF /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
+		79ECA6452154C08200F494CF /* filterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filterIcon.png; sourceTree = "<group>"; };
+		79ECA6472154C08900F494CF /* mapMarker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapMarker.png; sourceTree = "<group>"; };
+		79ECA6492154F3DA00F494CF /* radio-button-unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-button-unchecked.png"; sourceTree = "<group>"; };
+		79ECA64A2154F3DA00F494CF /* radio-button-checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-button-checked.png"; sourceTree = "<group>"; };
+		79ECA64D2154F79500F494CF /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +112,7 @@
 		79ECA60E2154BC6300F494CF /* payment */ = {
 			isa = PBXGroup;
 			children = (
+				79ECA63D2154BCEA00F494CF /* Resource */,
 				79ECA60F2154BC6300F494CF /* AppDelegate.swift */,
 				79ECA6112154BC6300F494CF /* ViewController.swift */,
 				79ECA6132154BC6300F494CF /* Main.storyboard */,
@@ -123,6 +139,38 @@
 				79ECA6312154BC6600F494CF /* Info.plist */,
 			);
 			path = paymentUITests;
+			sourceTree = "<group>";
+		};
+		79ECA63D2154BCEA00F494CF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				79ECA6442154C07600F494CF /* Icon */,
+				79ECA6432154C06200F494CF /* fa-brands-400.ttf */,
+				79ECA6412154C06100F494CF /* fontawesome-webfont.ttf */,
+				79ECA6422154C06100F494CF /* icomoon.ttf */,
+				79ECA63E2154BCF700F494CF /* Img */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		79ECA63E2154BCF700F494CF /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				79ECA63F2154BD0700F494CF /* pas-img.jpg */,
+			);
+			path = Img;
+			sourceTree = "<group>";
+		};
+		79ECA6442154C07600F494CF /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				79ECA64D2154F79500F494CF /* backspace.png */,
+				79ECA6492154F3DA00F494CF /* radio-button-unchecked.png */,
+				79ECA64A2154F3DA00F494CF /* radio-button-checked.png */,
+				79ECA6472154C08900F494CF /* mapMarker.png */,
+				79ECA6452154C08200F494CF /* filterIcon.png */,
+			);
+			path = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +277,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79ECA6402154BD0700F494CF /* pas-img.jpg in Resources */,
 				79ECA61A2154BC6600F494CF /* LaunchScreen.storyboard in Resources */,
+				79ECA6482154C08900F494CF /* mapMarker.png in Resources */,
 				79ECA6172154BC6600F494CF /* Assets.xcassets in Resources */,
+				79ECA6462154C08200F494CF /* filterIcon.png in Resources */,
+				79ECA64E2154F79500F494CF /* backspace.png in Resources */,
 				79ECA6152154BC6300F494CF /* Main.storyboard in Resources */,
+				79ECA64B2154F3DA00F494CF /* radio-button-unchecked.png in Resources */,
+				79ECA64C2154F3DA00F494CF /* radio-button-checked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
